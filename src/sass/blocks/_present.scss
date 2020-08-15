@@ -1,0 +1,47 @@
+.present {
+    min-height: 532px;
+    &__wrapper {
+        display: flex;
+    }
+    &__img {
+        width: 355px;
+        height: 362px;
+        margin-top: 85px;
+        margin-right: 75px;
+        margin-bottom: 85px;
+    }
+    &__options {
+        margin-top: 89px;
+        height: 353px;
+        width: 370px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    &__options-subheader{
+        margin-top: 25px;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 23px;
+        color: #222F33;
+        width: 155px;
+        height: 23px;
+    }
+    &__options-text {
+        margin-top: 3px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 22px;
+        color: #646D70;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        width: 155px;
+        height: 66px;
+    }
+
+}   

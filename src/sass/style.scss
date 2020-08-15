@@ -1,0 +1,26 @@
+@import 'base/variables';
+
+* {
+    font-family: Merriweather;
+}
+
+.container {
+    width: 808px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+@import 'blocks/animation';
+@import 'blocks/_footer';
+@import 'blocks/present';
+@import 'blocks/adventages';
+@import 'blocks/_header';
+@import 'blocks/_promo';
+@import 'blocks/button';
+@import 'blocks/_adaptive';

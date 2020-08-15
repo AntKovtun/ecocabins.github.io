@@ -1,0 +1,49 @@
+.header__btn:hover {
+    background: #7d8b8a;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+/* анимация подчеркивания меню */
+.header__menu li::after {
+    content: '';
+    width: 12%;
+    height: 3px;
+    background: #7d8b8a;
+    border: none;
+    position: absolute;
+    left: 38px;
+    right: 0;
+    margin: 0 auto;
+    /*top: 25px; для нижнего подчеркивания установить 25px */
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.header__menu li:hover::after {
+    opacity: 1;
+    width: 50%;
+}
+
+/* анимация ссы play*/
+.promo__video-descr a:hover {
+    color: #7d8b8a;
+    transition-duration: 0.3s;
+}
+/* анимация соц сетей */
+.promo__links a:hover {
+    color: #7d8b8a;
+    transition-duration: 0.3s;
+}
+
+.materialen__btn:hover {
+    background: #7d8b8a;
+    color: #FFFFFF;
+    border: none;
+    transition-duration: 0.6s;
+}
+/* footer animation aclass */
+.footer__info a:hover {
+    color: #fff;
+    opacity: 1;
+    transition-duration: 0.6s;
+}

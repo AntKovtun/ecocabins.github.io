@@ -1,0 +1,155 @@
+body {
+    overflow-x: hidden;
+    }
+
+
+@media  (max-width: 1300px) {
+    .promo__links {
+        right: -50px;
+    }
+}
+
+@media  (max-width: 1100px) {
+    .promo__links {
+        right: -85px;
+    }
+}
+
+@media  (max-width: 1000px) {
+    .promo__links {
+        right: -115px;
+    }
+}
+
+@media  (max-width: 1000px) {
+    .promo__links {
+        right: -115px;
+    }
+    .footer__info {
+        width: 600px;
+    }
+}
+
+@media  (max-width: 840px) {
+    .container {
+        width: 700px;
+    }
+    .promo__links {
+        display: none;
+    }
+    .materialen__img-slider {
+        margin-left: 400px;
+    }
+    .present__img {
+        margin-right: 30px;
+    }
+}
+
+@media  (max-width: 750px) {
+    .container {
+        width: 600px;
+        flex-wrap: wrap;
+    }
+    .promo__video-icon {
+        margin-left: 455px;
+    }
+    .promo__text {
+        width: 340px;
+        font-weight: 700;
+    }
+    .materialen__duurzame {
+        width: 800px;
+    }
+    .materialen__header {
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    .materialen__text {
+        margin-top: 7px;
+        width: 260px;
+        line-height: 22px;
+    }
+    .materialen__btn {
+        margin-top: 58px;
+    }
+    .materialen__img-slider {
+        margin-left: 320px;
+    }
+    .present__wrapper {
+        flex-direction: column;
+        margin-left: 130px;
+    }
+    .present__img {
+        margin-top: 25px;
+    }
+    .present__options {
+        margin-top: -92px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .header__logo {
+        width: 170px;
+    }
+    .header__menu a {
+        padding-left: 15px;
+        font-weight: 300;
+        font-size: 11px;
+    }
+    .promo__text {
+        width: 250px;
+        font-weight: 300;
+        font-size: 17px;
+    }
+    .promo__video-icon {
+        margin-left: 300px;
+    }
+    .materialen__duurzame {
+        width: 630px;
+        margin-left: -340px;
+        padding-left: 300px;
+    }
+    .materialen__header {
+        font-size: 20px;
+    }
+    .materialen__text {
+        width: 200px;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .materialen__btn {
+        margin-top: 75px;
+    }
+    .materialen__img-slider {
+        margin-left: 226px;
+    }
+    .materialen__subheader {
+        margin-top: 150px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .materialen__dark-text1 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .materialen__dark-text2 {
+        margin-left: 32px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .present__wrapper {
+        margin-left: 70px;
+    }
+    .footer__info {
+        width: 500px;
+    }
+}
+
+
